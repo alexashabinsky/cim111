@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+
+
+
+body{
+  background-color: grey;
+  font-family: 'Neucha', cursive;
+}
+
+.name{
+  color: teal;
+}
+
+.change{
+  color: cyan;
+}
+
+
+#name{
+  color:navy;
+}
+
+#change{
+  color:white;
+}
+
+#new{
+  color:violet;
+}
+
+#puppytag{
+  color: orange;
+}
+
+#address{
+  color:red;
+}
+
+#gradient {
+  width: 200px;
+  border: 30px solid;
+  border-image: repeating-linear-gradient(45deg, #f33, #3bf, #f33 30px) 60;
+  padding: 20px;
+}
+
+
+a{
+        text-decoration: none;
+        color: pink;
+        font-weight: 900;
+      }
+      a:hover{
+        color: white;
+        text-decoration: inherit;
+      }
+      a:visited{
+        color: green;
+      }
