@@ -1,0 +1,16 @@
+@import "desktop.css";
+
+
+h2{
+  display: inline-block;
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+}
+
+h3{
+  display: inline-block;
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+}
