@@ -1,19 +1,15 @@
-@import "desktop.css";
+@import "recipes.css";
 
-h2{
+p{
   display: inline-block;
-  font-size: 8px;
-  font-style: italic;
-  text-align: center;
-}
-
-h3{
-  display: inline-block;
-  font-size: 8px;
+  font-size: 10px;
   font-style: italic;
   text-align: center;
 }
 
 img{
-  height: 200px;
+  display: inline-block;
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
 }

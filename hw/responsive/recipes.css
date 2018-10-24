@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Krub');
+
+.first-class{
+text-align : center;
+}
+
+body{
+  font-family: 'Krub', sans-serif;
+  font-size: 12px;
+
+}
+
+#colorChange{
+  color: peru;
+}
+
+.backgroundChange{
+  background-color: pink;
+}
+
+ul {
+  display: inline-block;
+}
+
+header{
+  background-color: Chocolate;
+  width: auto;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: -10px;
+
+}
+
+main{
+  background-color: white;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -19.4px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+    text-align: center;
+}
+
+footer{
+  position:absolute;
+   bottom:0;
+   width:110%;
+   height:50px;
+   background:silver;
+}
+p{
+  font-size: 15px;
+}
