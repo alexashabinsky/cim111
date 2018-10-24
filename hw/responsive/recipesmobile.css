@@ -1,12 +1,5 @@
 @import "recipes.css";
 
-p{
-  display: inline-block;
-  font-size: 10px;
-  font-style: italic;
-  text-align: center;
-}
-
 img{
   display: inline-block;
   font-size: 10px;
