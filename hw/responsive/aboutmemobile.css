@@ -1,13 +1,13 @@
 @import "aboutme.css";
 
-h2{
+h1{
   display: inline-block;
   font-size: 10px;
   font-style: italic;
   text-align: center;
 }
 
-h3{
+img{
   display: inline-block;
   font-size: 10px;
   font-style: italic;
