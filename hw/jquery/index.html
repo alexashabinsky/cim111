@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How To Make The Best Pancakes!</title>
+
+  <style>
+ul{
+list-style-type: none;
+}
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>
+
+</head>
+<body>
+<h1 id="textChange" text align=center>How To Make The Best Pancakes!</h1>
+<ul>
+  <h2><em>Step By Step Instructions</em></h2>
+      <li>
+        <div id="step1"><strong>step 1</strong></div>
+        <img id="image1"src="images/Ingredients.JPG"width="400">
+        <div id="step1info"></div>
+      </li>
+
+      <li>
+        <div id="step2"><strong>step 2</strong></div>
+        <img id="image2"src="images/Flour.JPG"width="400">
+        <div id="step2info"></div>
+      </li>
+
+      <li>
+        <div id="step3"><strong>step 3</strong></div>
+        <img id="image3"src="images/Egg.JPG"width="400">
+        <div id="step3info"></div>
+      </li>
+
+      <li>
+        <div id="step4"><strong>step 4<strong></div>
+        <img id="image4"src="images/Wet.JPG"width="400">
+        <div id="step4info"></div>
+      </li>
+      <li>
+        <div id="step5"></strong>step 5</strong></div>
+        <img id="image5"src="images/Pancakes.JPG"width="400">
+        <div id="step5info"></div>
+      </li>
+      <div id="imageRecepticle"></div>
+    </ul>
+
+      <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      //ALL jquery code should be placed below
+      $(".box").hide();
+      $("body").css("background-color","grey");
+      $("h1").css("color","maroon");
+      $("h1").css("font-size","40px");
+      $("h2").css("font-size", "25px");
+      $("#textChange").css("background-color", "grey");
+      $("#textChange").html("Let's Learn How to Make Pancakes!!");
+
+      $("#textChange").click(function(){
+      $("body").css("background-color","honeydew");
+    });
+
+    $("#step1").click(function(){
+        $("#image1").toggle();
+      $("#step1info").html("These pancakes are simple, and only require a few ingredients!").toggle();
+      });
+
+      $("#step2").click(function(){
+          $("#image1").toggle();
+        $("#step2info").html("Add all your dry ingreidents. 2 cups of all purpose flower. 2 teaspoons of baking powder.1/4 teaspoon of salt.").toggle();
+        });
+
+        $("#step3").click(function(){
+            $("#image1").toggle();
+          $("#step3info").html("Now time for the wet ingredients. 2 eggs, 1 teaspoon of vanilla. 2 cups of milk and 1 teaspoon of melted butter").toggle();
+          });
+
+          $("#step4").click(function(){
+              $("#image1").toggle();
+            $("#step4info").html("Now we mix the wet and dry ingreidents together! Follwing this, butter your pan and its time for the pancakes to cook!").toggle();
+            });
+
+            $("#step5").click(function(){
+                $("#image1").toggle();
+              $("#step5info").html("Once the pancakes are cooked, you can garnish them with any types of fruits or nuts!").toggle();
+              });
+
+
+
+    });
+
+</script>
+
+<main></main>
+<footer></footer>
+</body>
+
+</html>
