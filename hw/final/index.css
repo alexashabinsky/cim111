@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Krub');
+
+.first-class{
+text-align : center;
+}
+
+
+body{
+  font-family: 'Krub', sans-serif;
+
+}
+
+.backgroundChange{
+  background-color: pink;
+}
+
+
+header{
+  background-color: pink;
+  width: auto;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: -25px;
+
+}
+
+main{
+  background-color: white;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -19.4px;
+}
+
+footer {
+    width: auto;
+    height: 100px;
+    background-color: grey;
+    margin: 0 auto;
+    margin-top: auto;
+
+}
+
+nav ul li a:hover{
+  background-color: grey;
+  text-decoration: none;
+
+}
+
+nav{
+width: 300px;
+margin: 0 auto;
+background-color: pink;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a{
+        text-decoration: none;
+        color: grey;
+      }
+      a:hover{
+        color: white;
+        text-decoration: inherit;
+      }
+      a:visited{
+        color: turquoise;
+      }
+
+ p{
+   font-size: 30px;
+   text-align: center;
+ }
+
+h2{
+  display: inline-block;
+  font-size: 20px;
+  font-style: italic;
+
+}
+
+h3{
+  display: inline-block;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+
+}
+
+  #grid1{
+  display: grid;
+  grid-template-areas: "col1" "col2";
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 5px;
+
+  #col1{
+    grid-area: col1;
+    height: auto;
+  }
+
+  #col2{
+    grid-area: col2;
+    height: auto;
+  }
