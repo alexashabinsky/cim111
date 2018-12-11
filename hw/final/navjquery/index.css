@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
 * {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -30,7 +32,7 @@ h1 {
 	font-size: 48px;
 	line-height: 1;
 	margin-bottom: 1em;
-	font-family:16px/1.5 Helvetica, Arial, sans-serif;
+	font-family: 'Cairo', sans-serif;
 	text-align: center;
 	color: #00bfff;
 
@@ -40,7 +42,8 @@ h2 {
 	font-size: 30px;
 	line-height: 1;
 	margin-bottom: 1em;
-	font-family: serif;
+	font-family: 'Cairo', sans-serif;
+
 }
 
 h3 {
@@ -86,6 +89,8 @@ ul {
 	padding: 5px 10px;
 	text-decoration: none;
 	text-transform: uppercase;
+	font-family: 'Cairo', sans-serif;
+
 }
 
 #nav a:hover {
